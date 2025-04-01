@@ -28,10 +28,10 @@
           />
           <ul class="nav__links">
             <li>
-              <a href="#" class="nav__link">Receitas</a>
+              <a href="#recipes" class="nav__link">Receitas</a>
             </li>
             <li>
-              <a href="#" class="nav__link">Reservar uma mesa</a>
+              <a href="#reservation" class="nav__link">Reservar uma mesa</a>
             </li>
             <li>
               <a href="#" class="nav__link">Contatos</a>
@@ -40,7 +40,7 @@
         </nav>
 
         <h1 class="header__title">
-          <span class="header_span-accent">Café Especial</span>
+          <span class="header__span-accent">Café Especial</span>
           na biblioteca Triple Peaks
         </h1>
 
@@ -68,48 +68,44 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes">
-          <h2 class="recipes_title">Receitas</h2>
-          <p class="recipes_subtitle">
+        <section id="recipes" class="recipes">
+          <h2 class="recipes__title">Receitas</h2>
+          <p class="recipes__subtitle">
             Confira algumas receitas que coletamos para seu lanchinho caseiro
           </p>
 
-          <ul class="recipes_videos">
-            <li class="recipes_videos-item">
+          <ul class="recipes__videos">
+            <li class="recipes__videos-item">
               <iframe
                 src="https://www.youtube.com/embed/st571DYYTR8?si=ddjMWZY97rC0eJ1l"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
                 class="recipes__iframe"
               ></iframe>
-              <p class="recipes_video-caption">
+              <p class="recipes__video-caption">
                 <span> receita aeropress</span>
                 <span> ~5min</span>
               </p>
             </li>
-            <li class="recipes_videos-item">
+            <li class="recipes__videos-item">
               <iframe
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=WDP4VUa28M49Vzg-"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
                 class="recipes__iframe"
               ></iframe>
-              <p class="recipes_video-caption">
+              <p class="recipes__video-caption">
                 <span> receita de prensa francesa</span>
                 <span> ~5min</span>
               </p>
             </li>
           </ul>
         </section>
-
-        <section class="content__recipes"></section>
-        <section class="content__reservation"></section>
+        <section id="reservation" class="reservation"></section>
       </main>
       <footer class="footer"></footer>
     </div>
