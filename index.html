@@ -19,9 +19,95 @@
   </head>
   <body>
     <div class="page">
-      <p>testando</p>
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="logo cafe"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a href="#" class="nav__link">Receitas</a>
+            </li>
+            <li>
+              <a href="#" class="nav__link">Reservar uma mesa</a>
+            </li>
+            <li>
+              <a href="#" class="nav__link">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+
+        <h1 class="header__title">
+          <span class="header_span-accent">Café Especial</span>
+          na biblioteca Triple Peaks
+        </h1>
+
+        <p class="header__description">
+          Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
+          você e vibrações aconchegantes para soltar a criatividade.
+        </p>
+
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="imagem coffe shop"
+          class="header__image"
+        />
+
+        <div class="header__footer">
+          <div>
+            <p class="header__paragraph">Horários:</p>
+
+            <p class="header__paragraph">Segunda a sexta (10:00 - 19:00)</p>
+            <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
+          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, a cidade de Triple Peaks
+          </p>
+        </div>
+      </header>
       <main class="content">
+        <section class="recipes">
+          <h2 class="recipes_title">Receitas</h2>
+          <p class="recipes_subtitle">
+            Confira algumas receitas que coletamos para seu lanchinho caseiro
+          </p>
+
+          <ul class="recipes_videos">
+            <li class="recipes_videos-item">
+              <iframe
+                src="https://www.youtube.com/embed/st571DYYTR8?si=ddjMWZY97rC0eJ1l"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                class="recipes__iframe"
+              ></iframe>
+              <p class="recipes_video-caption">
+                <span> receita aeropress</span>
+                <span> ~5min</span>
+              </p>
+            </li>
+            <li class="recipes_videos-item">
+              <iframe
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=WDP4VUa28M49Vzg-"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                class="recipes__iframe"
+              ></iframe>
+              <p class="recipes_video-caption">
+                <span> receita de prensa francesa</span>
+                <span> ~5min</span>
+              </p>
+            </li>
+          </ul>
+        </section>
+
         <section class="content__recipes"></section>
         <section class="content__reservation"></section>
       </main>
