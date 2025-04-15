@@ -1,3 +1,14 @@
+@import url(../vendor/normalize.css);
+@import url("../blocks/footer.css");
+@import url("../blocks/header.css");
+@import url("../blocks/nav.css");
+@import url("../blocks/page.css");
+@import url("../blocks/recipes.css");
+@import url("../blocks/reservation.css");
+@import url("../blocks/form.css")
+
+
+/*
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -219,8 +230,7 @@
   font-size: 16px;
   line-height: 20px;
 }
-.form__button:hover {
-}
+
 .form__checkbox {
   width: 20px;
   height: 20px;
